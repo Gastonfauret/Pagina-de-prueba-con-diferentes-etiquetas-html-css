@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./assets/background.jpeg);
+    background-size: auto;
+    scroll-behavior: smooth;
+}
+img {
+    width: 10%;
+    margin: 1rem;
+    border-radius: 1rem;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid tomato;
+    border-radius: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 10px;
+}
+
+hr {
+    margin: 20px;
+    border: 1px solid tomato;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: tomato
+}
+
+.vegan {
+    width: 150%;
+    margin-left: -75px;
+}
+
+iframe {
+    width: 40%;
+    border-radius: 1rem;
+}
+
+.vegan-gif {
+    display: flex;
+    justify-content: center;
+}
+
+.vegan-gif img {
+    width: 20%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffb6af;
+    border-radius: 1rem;
+    justify-content: flex-end;
+    margin: 1.5rem;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.footer-icons {
+    display: flex;
+    margin: 20px;
+}
+
+.footer-icons i {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fa-facebook, .fa-instagram, .fa-twitter, .fa-tiktok {
+    color: black;
+}
+
+.fa-facebook:hover, .fa-twitter:hover {
+    color: blue;
+}
+
+.fa-instagram:hover {
+    color:deeppink;
+}
+
+.fa-tiktok:hover {
+    color:grey;
+}
+
+form {
+    background-color: #ff6961;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2.5rem;
+    width: 15rem;
+    padding: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+input {
+    border-radius: 0.3rem;
+    width: 13rem;
+    height: 1.5rem;
+}
+
+textarea {
+    border-radius: 0.3rem;
+    width: 13rem;
+}
+
+button {
+    margin: 5px;
+    border-radius: 0.3rem;
+    width: 13rem;
+    height: 1.5rem;
+    background-color: lightgrey;
+    border: 0rem;
+}
+
+button:hover {
+    background-color:#ffb6af;
+    border: 0.5px solid white;
+    color: white;
+}
